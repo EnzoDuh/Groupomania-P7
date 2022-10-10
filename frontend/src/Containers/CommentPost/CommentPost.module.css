@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 0 0 5rem 5rem;
+    padding: 0 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.comment_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comment_wrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.6rem;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    min-width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.icon {
+    height: 2.4rem;
+}
+
+.box {
+    font-family: "Lato", "Roboto";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+.reactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;;
+    border: 2px solid #ffd7d7 ;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 2em;
+}
+
+.likersDiv{
+    display: flex;
+    flex-direction: row;
+    color: green;
+}
+
+.title{
+    align-self: center;
+    margin-right: 1.5em;
+}
+
+.dislikersDiv{
+    display: flex;
+    color: red;
+}
+
+.likers{
+    color: black;
+    font-size: small;
+    
+}
+
+.dislikers{
+    color: black;
+    font-size: small;
+}
